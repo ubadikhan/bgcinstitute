@@ -1,0 +1,58 @@
+body {
+    padding: 1% 10%;
+    margin-left: 7rem;
+    background-color: #d70c48;
+    background-image: linear-gradient(180deg, #d70c48 0%, #d31115 24%, #ff0023 49%, #c51036 75%, #d50936 100%);
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    color: #da9ed4;
+}
+
+
+
+#admission-form {
+    padding: 3% 7%;
+    background-color: #fff;
+    width: 80%;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 20px #fff;
+}
+
+
+
+.form-control {
+    border-bottom: 2px solid black;
+    outline-width: 0ch;
+}
+
+.form-label {
+    font-family: 'Russo One', sans-serif;
+}
+
+.from-gender {
+    font-family: 'Russo One', sans-serif;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+.form-select {
+    border-bottom: 2px solid black;
+    margin-bottom: 1rem;
+}
+
+.background {
+    height: 87%;
+    background-color: #9cbeeb;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.back-image {
+    margin-top: 10rem;
+    height: 40%;
+}

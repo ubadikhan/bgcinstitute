@@ -1,0 +1,105 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 7;
+}
+#my-profile {
+    padding: 7% 15%;
+}
+
+.developer-teacher {
+ margin-top: 1rem;
+ color: white;
+ font-family: 'Ms Madi', cursive;
+ font-weight: bold;
+ text-align: center;
+}
+
+.profile-back {
+    height: 30%;
+    width: 20%;
+    background-color: #ffff00d8;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    border-top-left-radius: 3rem;
+}
+
+.profile-image {
+    margin-top: 3rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.my-name-headig {
+    font-family: 'Ms Madi', cursive;
+    font-size: 3rem;
+    color: white;
+    margin-top: 7rem;
+}
+
+.developer {
+    color: #fff;
+    font-family: 'Ubuntu', cursive;
+    margin-left: 10rem;
+    font-size: 1.5rem;
+
+}
+
+.founder {
+  color: white;
+  font-family: 'Russo One', sans-serif;
+}
+
+.developer-teacher {
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+    font-size: 3rem;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /* border-right: .20em solid orange; The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .20em; Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {width: 0;}
+    to {width: 100%;}
+
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+  
+ 
+  .typewrite {
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.2rem;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin-left: 5rem; /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .20em; Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .6s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {width: 0;}
+    to {width: 30%;}
+
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+  
